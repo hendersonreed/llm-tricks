@@ -19,3 +19,8 @@ To adapt to your own system, there are a few things you will need to do.
     - this means change `$terminal_emulator_command` to work with your default terminal emulators.
 2. update the prompts to your taste.
 3. set up a keybinding in your window manager or desktop environment so you can launch this script with a key combination.
+    - in my environment (bspwm), I did the following:
+        1. added a rule to my bspwmrc: `bspc rule -a llm state=floating center=on follow=on rectangle=1600x800+0+0`
+        2. added a new keybinding to my sxkhdrc to launch llm.sh when `super + g` was pressed.
+
+happy hacking!
